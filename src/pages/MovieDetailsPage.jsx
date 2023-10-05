@@ -19,7 +19,12 @@ function MovieDetailsPage() {
     <div>
       {isLoading && <p>Loading...</p>}
       {movie && (
-        <div>
+        <div className="div">
+          <img
+            className="img"
+            src={`https://image.tmdb.org/t/p/w200/${movie.poster_path}`}
+            alt="poster"
+          />
           <h1>{movie.original_title}</h1>
           <p>{movie.tagline}</p>
           <hr />
