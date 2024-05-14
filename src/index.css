@@ -10,6 +10,73 @@ body {
 h1 {
   font-size: 50px;
 }
+.Paginator {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.ShowsPageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.selected a {
+  text-decoration: underline;
+  color: green;
+  padding: 10px 14px;
+  border-radius: 50px;
+  border: 1px solid green;
+}
+
+.search_input {
+  padding: 10px 30px;
+  border: 1px solid #000;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.search_btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background-color: #646cff;
+  color: #fff;
+  border: 1px solid #646cff;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.4s all ease;
+}
+
+.warn {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.movie {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.search_btn:hover {
+  background-color: transparent;
+  color: #000;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #646cff;
+}
+.heading {
+  font-size: 50px;
+  font-weight: 600;
+}
 /* .div {
   margin-left: 20px;
 } */
